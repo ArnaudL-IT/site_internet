@@ -1,1 +1,24 @@
+body{
+	box-sizing: border-box;
+	background-color: #9DCBB4;
+}
 
+h1{
+	text-align: center;
+}
+
+.left{
+	display: inline-block;
+	float: left;
+	width: 200px;
+	background: red;
+}
+
+.left div{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto:
+	margin-top: 10px;
+	background: green;
+	border: 1px solid black; 
+}
