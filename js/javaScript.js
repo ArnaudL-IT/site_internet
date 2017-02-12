@@ -1,7 +1,7 @@
-function displayDate(){
-	document.getElementById("Date").innerHTML=Date();
+function setPictureView(image){
+	document.getElementById('mainView').style.backgroundImage = "url('" + image.src + "')";
 }
 
-function message(msg){
-	document.getElementById('output').innerHTML= msg + " event";
+function openImage(image){
+	document.getElementById("hiddenImage").style.dipslay = block;
 }
