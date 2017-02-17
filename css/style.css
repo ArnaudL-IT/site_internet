@@ -70,6 +70,13 @@ nav:active{
 	margin-top: 90px;
 }
 
+.left{
+	width: 400px;
+	display: inline-block;
+	float: left;
+	margin-left: 5px;
+}
+
 aside{
 	display: inline-block;
 	width: 80%;
